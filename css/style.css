@@ -2,4 +2,40 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#container-fluid{
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 60px;
+    align-items: center;
+    display: absolute;
+    width: 900xp;
+    height: 600px;
+    gap: 80px;
+}
+h2{
+    text-align: center;
+}
+input{
+    align-items: center;
+    position:relative;
+    width: 80%;
+    height: 60px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 20px;
+}
+button{
+     background-color: green;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+button:hover{
+    background: red;
+    cursor: pointer;
 }
