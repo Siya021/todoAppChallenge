@@ -10,8 +10,17 @@
 <body>
     <form>
         <div id="container-fluid">
-
+            <h2>To do List</h2>
+            <button class="addTask" onclick="newTask()">ADD</button>
+            <input type="text" id="screen" placeholder="Add Task....">
+            <button class="sortTask" onclick="sortTask(event)">Sort Task</button>
+            <br>
+            <br>
+            <ul id="itemsList">
+            
+            </ul>
         </div>
+        
     </form>
     <script src="./script/code.js"></script>
 </body>
