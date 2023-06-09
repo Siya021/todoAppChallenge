@@ -8,20 +8,17 @@
     <title>To Do List</title>
 </head>
 <body>
-    <form>
-        <div id="container-fluid">
-            <h2>To do List</h2>
-            <button class="addTask" onclick="newTask()">ADD</button>
-            <input type="text" id="screen" placeholder="Add Task....">
-            <button class="sortTask" onclick="sortTask(event)">Sort Task</button>
-            <br>
-            <br>
-            <ul id="itemsList">
-            
+    <div class="container-fluid">
+        <h1>To-do-List</h1>
+        <form class="todoApp">
+          <button type="sort" class="sortTask" onclick="sort()">sort</button>
+          <input type="text" class="typescreen" placeholder="Add task....">
+          <button type="submit" class="addTask">Add</button>
+       </form>
+            <ul class="todoItems">
+              
             </ul>
-        </div>
-        
-    </form>
+    </div>
     <script src="./script/code.js"></script>
 </body>
 </html>

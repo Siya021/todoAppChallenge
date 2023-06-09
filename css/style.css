@@ -2,20 +2,30 @@
     padding: 0;
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; 
 }
-#container-fluid{
-    background-color: black;
+body{
+     background-image: url(https://i.postimg.cc/kXgHyBPh/f3c26d47cfb5ee42187b19165508ffd6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+.container-fluid{
     color: white;
-    border: 5px solid red;
     border-radius: 60px;
     align-items: center;
     display: absolute;
-    width: 900xp;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     gap: 80px;
 }
-h2{
+.itemsList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+}
+h1{
     text-align: center;
 }
 input{
